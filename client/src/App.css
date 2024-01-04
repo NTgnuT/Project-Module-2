@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border-color: transparent;
+}
+
+textarea {
+  padding: 10px;
+  outline: none;
+}

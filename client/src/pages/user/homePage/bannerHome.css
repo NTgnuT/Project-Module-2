@@ -1,0 +1,15 @@
+.row {
+  position: relative;
+}
+
+.banner_text_iner {
+  position: absolute;
+  top: 200px;
+  left: 5%;
+}
+
+.banner_img {
+  position: absolute;
+  top: 150px;
+  left: 48%;
+}

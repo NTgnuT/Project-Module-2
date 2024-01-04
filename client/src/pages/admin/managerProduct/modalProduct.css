@@ -1,0 +1,53 @@
+.form-container-admin-crud {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 30px;
+  box-shadow: 0 6px 12px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  z-index: 1000;
+}
+.form-container-admin-crud > form {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  padding: 40px 20px !important;
+  border-radius: 4px;
+  background-color: #e6e4e4;
+  box-shadow: 0 6px 15px 1px rgba(0, 0, 0, 0.3);
+}
+.form-container-admin-crud > form h3 {
+  text-align: center !important;
+  text-transform: uppercase !important;
+}
+.form-container-admin-crud > form label {
+  display: inline-block;
+  width: 150px;
+}
+.form-container-admin-crud > form input,
+.form-container-admin-crud > form textarea {
+  outline: none;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  width: 70%;
+}
+.form-container-admin-crud > form textarea {
+  min-height: 100px;
+}
+.btn-form-admin {
+  border: none !important;
+  outline: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.btn-add-product {
+  background-color: green;
+}

@@ -1,0 +1,44 @@
+.sidebar-admin {
+  width: 250px;
+  height: 100vh;
+  min-height: 100vh;
+  color: #fff;
+  background-color: rgb(34, 31, 64);
+  /* z-index: 1;
+  overflow-y: scroll; */
+}
+
+.sidebar-logo h3 {
+  color: #fff;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.router-item {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin: 10px 0;
+  padding: 10px 20px;
+  /* height: 50px; */
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  transition: all.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.router-item:hover {
+  color: rgb(36, 36, 36);
+  background-color: rgba(255, 255, 255, 0.779);
+  box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42),
+    0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}

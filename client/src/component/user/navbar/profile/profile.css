@@ -1,0 +1,61 @@
+.container-profile {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.form-profile {
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.title-profile {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.title-profile i {
+  margin-right: 10px;
+}
+
+.info-profile {
+  display: flex;
+  gap: 40px;
+}
+
+.profile-avatar {
+  width: 50%;
+}
+
+.profile-info-user {
+  width: 50%;
+}
+
+.ant-upload-select {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.form-label {
+  margin-bottom: 0;
+}
+
+.form-control {
+  height: 32px;
+}
+
+.btn-confirm-profile {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}

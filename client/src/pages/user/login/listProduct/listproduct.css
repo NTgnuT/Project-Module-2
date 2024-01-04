@@ -1,0 +1,33 @@
+.list-browse-category {
+  cursor: pointer !important;
+}
+
+.add_cart {
+  border: none;
+  cursor: pointer;
+}
+
+.active-category {
+  background-color: #0dcaf0;
+  color: white;
+  border-radius: 10px;
+  height: 32px;
+  padding-left: 10px;
+  line-height: 32px;
+}
+
+.t-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.product_top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 10%;
+}
+
+.list-browse-category:hover {
+  padding-left: 15px;
+}

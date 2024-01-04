@@ -1,0 +1,37 @@
+.container-register {
+  width: 650px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px;
+  background-color: rgb(236, 253, 255);
+}
+
+.register-info {
+  display: flex;
+  gap: 10px;
+}
+
+.register-left {
+  width: 50%;
+}
+
+.register-right {
+  width: 50%;
+}
+
+.t-btn-register {
+  width: 60%;
+  height: 42px;
+  margin: 0 auto;
+}
+
+.forget-password {
+  justify-content: space-around;
+}
+
+.form-check {
+  display: flex;
+  justify-content: center;
+}

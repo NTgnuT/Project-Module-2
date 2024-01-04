@@ -1,0 +1,16 @@
+.order-info {
+  display: flex;
+  gap: 20px;
+}
+
+.order-left {
+  width: 50%;
+}
+
+.order-right {
+  width: 50%;
+}
+
+.table {
+  text-align: center;
+}

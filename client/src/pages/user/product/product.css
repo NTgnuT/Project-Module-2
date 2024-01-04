@@ -1,0 +1,18 @@
+.section_padding {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.btn_3 {
+  cursor: pointer;
+  /* margin-left: 40px; */
+  /* background-color: #ff7c9f; */
+}
+
+.like_us:hover {
+  background-color: red;
+}
+
+.fa-heart {
+  color: rgb(251, 151, 151);
+}
